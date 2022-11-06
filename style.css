@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+.co{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+}
+.con img{
+    display: flex;
+    width: 10px;
+    height: 10px;
+}
+.con h1{
+    font-size: 8px;
+    
+    
+}
+
+.maincont{
+    /* background-color: red; */
+    padding: 0 3px;
+    max-width: 100vw;
+}   
+.con{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    /* height: 30px; */
+    background-color: lightblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: fit-content;
+}
+
+.maincont{
+    /* display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(6,auto);
+    column-gap: 3px;
+    row-gap: 12px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.co{
+    margin: 12px 0px;
+}
+.con:hover{
+    transform: scale(1.3);
+    color: red;
+}
+.con{
+    transition: color 0.2s ease-in;
+    transition: transform 0.2s ease-in;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    background-color: transparent;
+}
+.header{
+    /* position: fixed; */
+    /* z-index: 10; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    /* background-color: red; */
+    max-width: 100vw;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.header img{
+    display: flex;
+    width: 60px;
+    height: 100px;
+}
+#f img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+#s img{
+    display: flex;
+    width: 100px;
+    
+}
+#t img{
+    display: flex;
+    width: 139px;
+    height: 200px;
+}
+#fo img{
+    display: flex;
+    width:200px;
+    height: 200px;
+}
+#fi img{
+    display: flex;
+    width: 200px;
+    height: 180px;
+}
+#si img{
+    display: flex;
+    width: 150px;
+    height: 200px;
+}
+#se img{
+    display: flex;
+    width: 200px;
+    height: 150px;
+}
+#ei img{
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+#ni img{
+    display: flex;
+    width:200px
+    ;
+    height: 200px;
+}
+#te img{
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+.con{
+    margin-top: 8px;
+}
+#ele img{
+    display: flex;
+    width: 150px;
+    height: 200px;
+}
+.co{
+    transition: transform 0.3s ease-in;
+    cursor: pointer;
+}
+.co:hover{
+    transform: scale(0.9);
+    color: red;
+}
+.h1{
+    text-transform: capitalize;
+}
+.header{
+    margin-top: 100px;
+   
+    margin-bottom: 40px;
+}
+
+.con{
+    color: white;
+}
+.h1{
+    color: white;
+    text-transform: capitalize;
+}
