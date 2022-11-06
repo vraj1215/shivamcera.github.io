@@ -149,6 +149,9 @@
 .co:hover{
     transform: scale(0.9);
     color: red;
+    .con{
+        color:red;
+    }
 }
 .h1{
     text-transform: capitalize;
